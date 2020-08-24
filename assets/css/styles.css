@@ -1,0 +1,9 @@
+body {
+  filter: blur(0px) brightness(100%);
+}
+
+a.link:hover {
+  background: #06d6a0;
+  /*color: #000000;*/
+}
+
