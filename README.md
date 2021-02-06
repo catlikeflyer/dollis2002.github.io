@@ -15,6 +15,7 @@ More about me:
 - 🐍 I love Python
 - I'm a 🇰🇷 living in 🇲🇽
 
+Feel free to contact, criticize, help or ark me!
 Contacts:
 - IG: @dos2dio
 - LinkedIn: Do Hyun Nam
