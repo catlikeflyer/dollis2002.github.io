@@ -1,6 +1,6 @@
 ### Hi there 👋 I'm D.H.
 
-Robotics student at the Monterrey Institute of Technology. Avid fan of business analytics, music, cinematography, sports (), entrepreneurship, and designing. 
+Robotics student at the Monterrey Institute of Technology. Avid fan of business analytics, music, cinematography, sports (⚽🏀🥋), entrepreneurship, and designing. 
 Love to travel and meet new people! Commited to lifelong learning.
 
 Working on...
@@ -18,7 +18,7 @@ More about me:
 Contacts:
 - IG: @dos2dio
 - LinkedIn: Do Hyun Nam
-- Website: [dhnam.me](dhnam.me)
+- Website: [dhnam.me](https://dhnam.me)
 
 <!--
 **dollis2002/dollis2002** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
