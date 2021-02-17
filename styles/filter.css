@@ -66,9 +66,9 @@
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 50px; /* Rounded corners */
-  font-size: 1vh; /* Increase font size */
+  font-size: calc(10px + 0.8vw); /* Increase font size */
   height: 3vh;
-  width: 10rem;
+  width: fit-content;
   text-align: center;
   align-items: center;
   font-family: "Ubuntu", sans-serif;
@@ -83,4 +83,10 @@
 #contactBtn:hover {
   background-color: rgb(0, 0, 0); /* Add a dark-grey background on hover */
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  #contactBtn{
+    background-color: rgba(200, 200, 200, 0.486);
+  }
 }
