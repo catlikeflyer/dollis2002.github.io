@@ -66,8 +66,8 @@
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 50px; /* Rounded corners */
-  font-size: 22px; /* Increase font size */
-  height: 50px;
+  font-size: 1vh; /* Increase font size */
+  height: 3vh;
   width: 10rem;
   text-align: center;
   align-items: center;
