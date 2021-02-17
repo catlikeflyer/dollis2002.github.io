@@ -1,5 +1,6 @@
 const block = document.getElementById("card-block")
 console.log("I Work")
+
 const contents = [
     {
         "id": 1,
@@ -81,7 +82,7 @@ const contents = [
         "title": "Basketball (NBA)",
         "subheader": "My favorite to watch",
         "description": "Its dynamic and fast factor are very attractive, but too many ads. Favorite team: Toronto Raptors. Favorite player: Stephen Curry. My position: guard",
-        "img": "img/fut.png",
+        "img": "img/basket.png",
         "label": "abt",
     }, 
     {
@@ -118,7 +119,7 @@ const contents = [
         "subheader": "HTML, CSS, JS, Bootstrap, Wordpress",
         "description": "It is what got me interested in coding, and what I like the most are the inmediate visible results. A wide range of possiblities have opened up thanks to web designing.",
         "img": "img/web.png",
-        "label": "exp",
+        "label": "skl",
     }, 
     {
         "id": 14,
@@ -130,16 +131,16 @@ const contents = [
         "label": "abt",
     }, 
 
-]
+];
 
-contents.forEach(loadHTML)
+shuffle(contents).forEach(loadHTML)
 
 function loadHTML(content){
     if (content.link === undefined) {
         block.innerHTML +=  `
         <div class="col-lg-4 col-sm-12 col-md-6 card-col ${content.label}">
             <div class="my-card">
-                <h3 class="category-box text-center">${content.cat}</h3>
+                <h3 class="category-box text-center ${content.label}">${content.cat}</h3>
                 <h1>${content.title}</h1>
                 <h2>${content.subheader}</h1>
                 <p>${content.description}</h1>
@@ -152,7 +153,7 @@ function loadHTML(content){
         <div class="col-lg-4 col-sm-12 col-md-6 card-col ${content.label}">
             <a href="${content.link}" style="text-decoration: none;">
                 <div class="my-card">
-                    <h3 class="category-box text-center">${content.cat}</h3>
+                    <h3 class="category-box text-center ${content.label}">${content.cat}</h3>
                     <h1>${content.title}</h1>
                     <h2>${content.subheader}</h1>
                     <p>${content.description}</h1>
@@ -162,6 +163,25 @@ function loadHTML(content){
         </div>
         `;
     }
-   
-    console.log(content);
 }
+
+function shuffle(array) {
+
+	var currentIndex = array.length;
+	var temporaryValue, randomIndex;
+
+	// While there remain elements to shuffle...
+	while (0 !== currentIndex) {
+		// Pick a remaining element...
+		randomIndex = Math.floor(Math.random() * currentIndex);
+		currentIndex -= 1;
+
+		// And swap it with the current element.
+		temporaryValue = array[currentIndex];
+		array[currentIndex] = array[randomIndex];
+		array[randomIndex] = temporaryValue;
+	}
+
+	return array;
+
+};
