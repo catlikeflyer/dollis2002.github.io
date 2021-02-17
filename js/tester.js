@@ -137,7 +137,7 @@ const contents = [
         "cat": "Skills",
         "title": "Languages",
         "subheader": "Korean, Spanish, English, German",
-        "description": "<ul><li>Korean: native speaker</li><li>Spanish: native speaker</li>English: advanced (C2)<li></li><li>German: basic (B1)</li>",
+        "description": "<ul><li>Korean: native speaker</li><li>Spanish: native speaker</li><li>English: advanced (C2)</li><li>German: basic (B1)</li>",
         "img": "img/lang.png",
         "label": "skl",
     }, 
