@@ -27,7 +27,8 @@ const contents = [
         "subheader": "Co-founder, CPO & Web Dev",
         "description": "A social entrepreneurship that aims to help the youth on their dreams and paths. In charge of planning actions and projects, as well as maintaining the website.",
         "img": "img/sp.png",
-        "label": "exp"
+        "label": "exp",
+        "link": "https://startingpoint.com.mx"
     },
     {
         "id": 4,
@@ -36,7 +37,8 @@ const contents = [
         "subheader": "Innovation Director & Web Dev",
         "description": "Global campaign aimed to address the consequences of the climate crisis on Tuvalu. My role has been to plan innovative projects, and maintain the tech.",
         "img": "img/st.png",
-        "label": "exp"
+        "label": "exp",
+        "link": "https://savingtuvalu.org"
     }, 
     {
         "id": 5,
@@ -130,6 +132,15 @@ const contents = [
         "img": "img/kor.png",
         "label": "abt",
     }, 
+    {
+        "id": 15,
+        "cat": "Skills",
+        "title": "Languages",
+        "subheader": "Korean, Spanish, English, German",
+        "description": "<ul><li>Korean: native speaker</li><li>Spanish: native speaker</li>English: advanced (C2)<li></li><li>German: basic (B1)</li>",
+        "img": "img/lang.png",
+        "label": "skl",
+    }, 
 
 ];
 
@@ -143,7 +154,7 @@ function loadHTML(content){
                 <h3 class="category-box text-center ${content.label}">${content.cat}</h3>
                 <h1>${content.title}</h1>
                 <h2>${content.subheader}</h1>
-                <p>${content.description}</h1>
+                <p>${content.description}</p>
             </div>
             <img src='${content.img}' class='box-i'/>
         </div>
@@ -156,7 +167,7 @@ function loadHTML(content){
                     <h3 class="category-box text-center ${content.label}">${content.cat}</h3>
                     <h1>${content.title}</h1>
                     <h2>${content.subheader}</h1>
-                    <p>${content.description}</h1>
+                    <p>${content.description}</p>
                 </div>
                 <img src='${content.img}' class='box-i'/>
             </a>
