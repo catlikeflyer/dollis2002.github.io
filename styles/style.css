@@ -1,0 +1,129 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+}
+
+#spacer {
+    min-height: 50vh;
+    max-height: fit-content;
+    top: 0;
+}
+
+.my-header {
+    background-image: url("https://media1.giphy.com/media/uT9e7dNuJSgQ0QZHxY/giphy.gif");
+    min-height: 50vh;
+    max-height: fit-content;
+    background-size: cover;
+    color: azure;
+    font-family: 'Ubuntu', sans-serif;
+    position: fixed;
+    top: 0;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.my-header h1 {
+    font-size: calc(32px + 2.2vw);
+}
+
+.my-header h2 {
+    font-size: calc(20px + 1.2vw);
+}
+
+.my-header p {
+    font-size: calc(16px + 0.3vw);
+}
+
+.card-col {
+    padding: 0 0 !important;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(100%);
+    position: relative;
+    min-height: 30vh;
+    display: none;
+}
+
+.my-card {
+    margin: 4vh;
+    max-width: 60%;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    filter: brightness(100%);
+    position: relative;
+}
+
+.my-card h2 {
+    font-size: x-large;
+    font-style: italic;
+}
+
+.category-box {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 50px;
+    width: 8rem;
+    font-size:  18px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.box-i {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    object-fit: cover;
+    object-position: right;
+    filter: brightness(90%);
+    z-index: 1;
+}
+
+.my-card:hover + .box-i{
+    filter:brightness(60%);
+}
+
+.box-i:hover {
+    filter:brightness(60%);
+}
+
+.social-bar {
+    padding: 2vh;
+}
+.social-bar div a {
+    color: aliceblue;
+    font-style: normal;
+    text-decoration: none;
+    padding: 1vh;
+}
+
+.social-bar div a:hover {
+    color: rgb(95, 105, 102);
+    text-decoration: dotted;
+}
+
+.social-bar i{
+    font-size: calc(20px + 1vw);
+}
+
+.social-bar p {
+    font-size: calc(20px + 0.5vw);;
+}
