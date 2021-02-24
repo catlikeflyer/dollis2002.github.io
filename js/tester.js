@@ -141,6 +141,15 @@ const contents = [
         "img": "img/lang.png",
         "label": "skl",
     }, 
+    {
+        "id": 16,
+        "cat": "Experience",
+        "title": "Telpochcalli",
+        "subheader": "Programming & communications",
+        "description": "Robotics team member participating on the Robomaster competition. My role is to program the computer vision and establish communication with possible collaborators.",
+        "img": "img/telpoch.png",
+        "label": "exp",
+    }, 
 
 ];
 
